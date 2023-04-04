@@ -21,9 +21,9 @@ function Nav() {
 
   return (
 
- <nav class="navbar d-flex justify-content-end navbar-light bg-primary navbar-expand-xl p-0">
-  <form class="form-inline d-flex p-3" onSubmit={submitHandler}>
-    <input class="form-control mr-sm-2" name="keyword" type="search" placeholder="Search your film" aria-label="Search" />
+ <nav className="navbar d-flex justify-content-end navbar-light bg-primary navbar-expand-xl p-0">
+  <form className="form-inline d-flex p-3" onSubmit={submitHandler}>
+    <input className="form-control mr-sm-2" name="keyword" type="search" placeholder="Search your film" aria-label="Search" />
     <button type="submit" class="btn btn-outline-light ms-1">Search</button>
   </form>
 </nav>
